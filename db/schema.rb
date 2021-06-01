@@ -10,12 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_09_15_014227) do
+ActiveRecord::Schema.define(version: 2021_06_01_074221) do
 
-  create_table "books", force: :cascade do |t|
-    t.text "body"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
+# Could not dump table "books" because of following StandardError
+#   Unknown type 'strings' for column 'title'
 
 end
